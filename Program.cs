@@ -1,8 +1,5 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.CodeDom.Compiler;
-=======
->>>>>>> 0b392e882ca08e7ff47a358b178ec996f42fbcfd
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,83 +7,6 @@ using System.Threading.Tasks;
 
 namespace dinozauri
 {
-<<<<<<< HEAD
-=======
-    class DinoCarnivor
-    {
-        private int _inaltime;
-        private int _greutate;
-
-        public int Inaltie
-        {
-            get { return _inaltime; }
-            set 
-            { 
-               if(_inaltime < 0)
-                {
-                    _inaltime = 0;
-                }
-                else
-                {
-                    _inaltime = value;
-                }
-            }
-        }
-        public int Greutate
-        {
-            get { return _greutate; }
-            set
-            {
-                if (_greutate < 0)
-                {
-                    _greutate = 0;
-                }
-                else
-                {
-                    _greutate = value;
-                }
-            }
-        }
-
-    }
-    class DinoIerbivor 
-    {
-        private int _inaltime;
-        private int _greutate;
-
-        public int Inaltie
-        {
-            get { return _inaltime; }
-            set
-            {
-                if (_inaltime < 0)
-                {
-                    _inaltime = 0;
-                }
-                else
-                {
-                    _inaltime = value;
-                }
-            }
-        }
-        public int Greutate
-        {
-            get { return _greutate; }
-            set
-            {
-                if (_greutate < 0)
-                {
-                    _greutate = 0;
-                }
-                else
-                {
-                    _greutate = value;
-                }
-            }
-        }
-
-    }
->>>>>>> 0b392e882ca08e7ff47a358b178ec996f42fbcfd
     class Dino
     {
         private int _inaltime;
@@ -131,7 +51,7 @@ namespace dinozauri
     }
     class Turma
     {
-<<<<<<< HEAD
+
         public Dino[] dinos;
         public string name;
        
@@ -195,25 +115,14 @@ namespace dinozauri
         
     }
 
-=======
-        Dino[] dinos;
-        public Turma (Dino[] dinos)
-        {
-            foreach(Dino d in dinos)
-            {
-                d = new Dino()
-            }
-        }
-    }
+    
 
 
-
->>>>>>> 0b392e882ca08e7ff47a358b178ec996f42fbcfd
     internal class Program
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+
             int numarDinozauriTurmaCarnivori = 4;
             Turma turmaCarnivore = new Turma()
             {
@@ -237,12 +146,6 @@ namespace dinozauri
             Console.WriteLine(turmaCarnivore.atac(turmaIerbivore, turmaCarnivore) +"\n");
 
 
-=======
-            Dino dino1 = new Dino(12, 32);
-
-            Turma carnicore = 
-            
->>>>>>> 0b392e882ca08e7ff47a358b178ec996f42fbcfd
         }
     }
 }
